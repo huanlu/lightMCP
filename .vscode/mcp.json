@@ -1,0 +1,22 @@
+{
+    "inputs": [
+        {
+            "type": "promptString",
+            "id": "lifx_token",
+            "description": "Enter your LIFX API token",
+            "password": true
+        }
+    ],
+    "servers": {
+        "lifx": {
+            "type": "stdio",
+            "command": "node",
+            "args": [
+                "/Users/huanlu/Developer/lightMCP/dist/index.js"
+            ],
+            "env": {
+                "LIFX_TOKEN": "${input:lifx_token}"
+            }
+        }
+    }
+}
