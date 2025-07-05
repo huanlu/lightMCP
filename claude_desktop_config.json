@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "lifx": {
+      "command": "node",
+      "args": ["/Users/huanlu/Developer/lightMCP/dist/index.js"],
+      "env": {
+        "LIFX_TOKEN": "cb834050845b814bc01eb5e2893875dfeb6545b1a5dff9e24805c496f7d327e5"
+      }
+    }
+  }
+}
